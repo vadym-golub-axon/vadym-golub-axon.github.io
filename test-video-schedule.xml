@@ -1,4 +1,4 @@
-<VideoAdServingTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
     <Ad id="pre-roll">
         <InLine>
             <AdSystem>
@@ -127,4 +127,4 @@ http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&banneri
             </TrackingEvents>
         </InLine>
     </Ad>
-</VideoAdServingTemplate>
+</VAST>

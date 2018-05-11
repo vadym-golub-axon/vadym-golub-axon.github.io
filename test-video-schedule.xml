@@ -1,0 +1,130 @@
+<VideoAdServingTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="pre-roll">
+        <InLine>
+            <AdSystem>
+                <![CDATA[ Revive Adserver ]]>
+            </AdSystem>
+            <AdTitle>
+                <![CDATA[ rev-overlay-banner ]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[ Overlay Video Ad ]]>
+            </Description>
+            <Impression>
+                <URL id="primaryAdServer">
+                    <![CDATA[
+http://54.165.113.220:8080/www/delivery/lg.php?bannerid=162&campaignid=97&zoneid=80&cb=1ef698500b
+]]>
+                </URL>
+            </Impression>
+            <NonLinearAds>
+                <NonLinear id="overlay" width="936" height="120" resourceType="static" creativeType="image/jpg">
+                    <URL>
+                        http://54.165.113.220:8080/www/images/aa58b9886227f926f1311ecb8d8c126b.jpg
+                    </URL>
+                </NonLinear>
+            </NonLinearAds>
+            <Video>
+                <Duration>00:00:05</Duration>
+                <AdID>
+                    <![CDATA[ 162 ]]>
+                </AdID>
+                <MediaFiles>
+                    <MediaFile delivery="progressive" bitrate="400" width="640" height="480" type="video/x-mp4">
+                        <URL>
+                            <![CDATA[
+http://v.theonion.com/onionmedia/videos/videometa/1521/zen_mp4.mp4
+]]>
+                        </URL>
+                    </MediaFile>
+                </MediaFiles>
+            </Video>
+            <TrackingEvents>
+                <Tracking event="start">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=start
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="midpoint">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=midpoint
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="firstQuartile">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=firstquartile
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="thirdQuartile">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=thirdquartile
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="complete">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=complete
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="mute">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=mute
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="pause">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=pause
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="replay">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=replay
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="fullscreen">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=fullscreen
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="stop">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=stop
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="unmute">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=unmute
+]]>
+                    </URL>
+                </Tracking>
+                <Tracking event="resume">
+                    <URL id="primaryAdServer">
+                        <![CDATA[
+http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&bannerid=162&zoneid=80&event=resume
+]]>
+                    </URL>
+                </Tracking>
+            </TrackingEvents>
+        </InLine>
+    </Ad>
+</VideoAdServingTemplate>

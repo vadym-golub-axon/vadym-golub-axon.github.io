@@ -1,4 +1,4 @@
-<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+<VideoAdServingTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd">
     <Ad id="pre-roll">
         <InLine>
             <AdSystem>
@@ -13,19 +13,21 @@
             <Impression>
                 <URL id="primaryAdServer">
                     <![CDATA[
-http://54.165.113.220:8080/www/delivery/lg.php?bannerid=162&campaignid=97&zoneid=80&cb=1ef698500b
+http://54.165.113.220:8080/www/delivery/lg.php?bannerid=162&campaignid=97&zoneid=80&cb=5100554d5a
 ]]>
                 </URL>
             </Impression>
             <NonLinearAds>
-                <NonLinear id="overlay" width="936" height="120" resourceType="static" creativeType="image/jpg">
-                    <URL>
-                        http://54.165.113.220:8080/www/images/aa58b9886227f926f1311ecb8d8c126b.jpg
-                    </URL>
+                <NonLinear id="overlay" width="600" height="40" resourceType="TEXT">
+                    <Code>
+                        <![CDATA[
+<Title>rev-overlay-test-title</Title> <Description></Description> <CallToAction></CallToAction>
+]]>
+                    </Code>
                 </NonLinear>
             </NonLinearAds>
             <Video>
-                <Duration>00:00:05</Duration>
+                <Duration>00:00:57</Duration>
                 <AdID>
                     <![CDATA[ 162 ]]>
                 </AdID>
@@ -127,4 +129,4 @@ http://54.165.113.220:8080/www/delivery/fc.php?script=videoAds:vastEvent&banneri
             </TrackingEvents>
         </InLine>
     </Ad>
-</VAST>
+</VideoAdServingTemplate>
